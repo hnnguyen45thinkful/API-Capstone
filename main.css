@@ -1,0 +1,10 @@
+* {
+	box-sizing: border-box;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+body {
+	font-family: "Times New Roman", Georgia, Serif;
+	margin: 0 auto;
+	text-align: center;
+}

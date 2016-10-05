@@ -1,0 +1,66 @@
+<!--Created and modified by Hieu Nguyen-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+	<title>Global Recipes w/REstrcition Allergies</title>
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css">
+		 <!-- Normalize stylesheet -->		
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+</head>
+<body>
+	<div class="background-image"></div>
+	<div id="wrapper">
+		<header class="heading">
+			<h1>Global Recipes with REstrcition Allergies Search Box</h1>
+			<p> This SUPREME food application has MANY things you that can MEET YOUR NEEDS. A recipe in mind, a specific cursines  If you have a recipe in mind, search directly by name leaving out the Cuisine dropdown menu. If you want to search recipes by cuisine, leave the field blank, choose a cuisine or a variety of each inputs and click on Search button.</p>
+			<p>Be shocked and enjoy a variety of recipes that meets your needs!!</p>
+		</header>
+		<section class="input-section">
+			<input id="ingredient" type="text" placeholder="Enter food recipe here...">
+			<select name="cuisines" id="cuisine-name">
+				<option disabled selected value="choose cuisine">Choose a Cuisine...</option>
+				<option value="arabic">Arab(Arabic)</option>
+				<option value="american">American (United States)</option>
+				<option value="asian">Asian(Asia)</option>
+				<option value="barbecue">Barbecue(Varieties)</option>
+				<option value="cajun">Cajun/Creole(New Orleans, Louisiana)</option>	
+				<option value="chinese">Chinese(China)</option>
+				<option value="cuban">Cuban(Cuba)</option>
+				<option value="chinese">Danish(Denmark)</option>
+				<option value="english">English(United Kingdom)</option>
+				<option value="french">French(France)</option>
+				<option value="german">German(Germany)</option>
+				<option value="greek">Greek(Greece)</option>
+				<option value="hawaiian">Hawaiian(Hawaii)</option>
+				<option value="hungarian">Hungarian(Hungary)</option>
+				<option value="indian">Indian(India)</option>
+				<option value="irish">Irish(Ireland)</option>
+				<option value="italian">Italian(Italy)</option>
+				<option value="japanese">Japanese(Japan)</option>
+				<option value="lebanese">Lebanese(Lebanon)</option>
+				<option value="mediterranean">Mediterranean(Varieties)</option>
+				<option value="mexican">Mexican(Mexico)</option>
+				<option value="moroccan">Moroccan(Morroco)</option>
+				<option value="portugese">Portugese(Varieties)</option>
+				<option value="southern">Southern/Soul Food(African)</option>
+				<option value="southwestern">Southwestern(Tex-Mex)</option>
+				<option value="spanish">Spanish(Spain)</option>
+				<option value="swedish">Swedish(Sweden)</option>
+				<option value="thai">Thai(Thailand)</option>				
+				<option value="vietnamese">Vietnamese(Vietnam)</option>
+			</select>
+			<button id="searchButton" class="search">Search</button>  
+		</section>
+		<section class="recipe-list">
+			<ul class="recipe-details">
+				
+			</ul>
+		</section>
+	</div>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
