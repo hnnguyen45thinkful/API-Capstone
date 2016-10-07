@@ -1,6 +1,8 @@
+//Created and edited by Hieu Nguyen
+
 //From the yummly website The base url for the Search Recipes GET 
 //is....< http://api.yummly.com/v1/api/recipes?_app_id=app-id&_app_key=app-key&your _search_parameters >
-
+//Still waiting for api key and id
 $(document).ready( function() {
 	$('#searchButton').on('click', function (event) {
 	    event.preventDefault();

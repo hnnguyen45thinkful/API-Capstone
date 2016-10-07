@@ -4,8 +4,19 @@
 	font-family: "Times New Roman", Georgia, Serif;
 }
 
+p {
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 20px;	
+}
+
 body {
 	font-family: "Times New Roman", Georgia, Serif;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.ingredient {
+
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 20px;	
 }

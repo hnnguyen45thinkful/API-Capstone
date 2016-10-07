@@ -5,10 +5,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
 	<title>Global Recipes w/REstrcition Allergies</title>
-	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+		<!--Bootstrap link and script-->
 	<link rel="stylesheet" href="css/main.css">
 		 <!-- Normalize stylesheet -->		
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="background-image"></div>
@@ -52,22 +55,22 @@
 				<option value="thai">Thai(Thailand)</option>				
 				<option value="vietnamese">Vietnamese(Vietnam)</option>
 			</select>
-			<select name="allergy" id="allergy-name">
-				<option disabled selected value="restrict-allergy">Exclude a allergy...</option>
-				<option value="dairy-free">Dairy-Free</option>
-				<option value="egg-free">Egg-Free</option>
-				<option value="gluten-free=">Gluten-Free</option>
-				<option value="peanut-free">Peanut-Free</option>
-				<option value="seafood-free">Seafood-Free</option>	
-				<option value="sesame-free">Sesame-Free</option>
-				<option value="soy-free">Soy-Free</option>
-				<option value="sulfite-free">Sulfite-Free</option>
-				<option value="nut-free">Tree-Nut Free</option>
-				<option value="wheat-free">Wheat-Free</option>
-				<option value="vegetarian">Vegetarian</option>
-				<option value="vegan">Vegan</option>
-				<option value="paleo">Paleo</option>
-			</select>
+		<div class="container">
+  		<h2>Allergies and Restricted Dietary Needs</h2>
+  			<a href="#"	<button type="button" class="btn btn-info btn-lg">Dairy-Free</button> </a>
+  				<button type="button" class="btn btn-info btn-lg">Egg-Free</button>
+  				<button type="button" class="btn btn-info btn-lg">Gluten-Free</button>
+  				<button type="button" class="btn btn-info btn-lg">Peanut-Free</button>
+  				<button type="button" class="btn btn-info btn-lg">Seafood-Free</button>
+  				<button type="button" class="btn btn-info btn-lg">Sesame-Free</button>
+  				<button type="button" class="btn btn-info btn-lg">Soy-Free</button>
+  				<button type="button" class="btn btn-info btn-lg">Sulfite-Free</button>
+  				<button type="button" class="btn btn-info btn-lg">Tree-Nut-Free</button>
+  				<button type="button" class="btn btn-info btn-lg">Wheat-Free</button>
+  				<button type="button" class="btn btn-info btn-lg">Vegetarian</button>
+  				<button type="button" class="btn btn-info btn-lg">Vegan</button>
+  				<button type="button" class="btn btn-info btn-lg">Paleo</button>
+		</div>
 			<button id="searchButton" class="search">Search</button>  
 		</section>
 		<section class="recipe-list">
@@ -75,6 +78,8 @@
 			</ul>
 		</section>
 	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
